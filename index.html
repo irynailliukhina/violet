@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="mainer">
+        <div class="wrapper">
+            <div class="login-name">
+                <div class="login-name__sign">Sign in</div>
+                <div class="login-name__join">Join us</div>
+            </div>
+            <form action="#" method="post">
+                <div class="input-form__username">
+                    <label for="name">Username</label>
+                    <input type="text" name="name" id="name" required minlength="4">
+                    <div class="error">Enter your name</div>
+                </div>
+                <div class="input-form__password">
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" id="pass" required minlength="6">
+                    <div class="error">Enter your password</div>
+
+                </div>
+                <div class="input-form_checkbox">
+                    <input type="checkbox" name="check" id="check" checked required class="input-form_check">
+                    <label for="check" class="input-form_checkbox-label">Keep me signed in</label>
+                </div>
+
+                <div class="submit">
+                    <input type="submit" value="Sign in" class="submit__button"> </div>
+            </form>
+
+            <div class="options">
+                <div class="options__forget">Forgot password</div>
+                <div class="options__account">Create an account</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
