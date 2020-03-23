@@ -47,7 +47,7 @@ h1, h2 {
 
 .mainer{
     margin: 50px auto;
-    background-image: url(/violet/images/bg.png);
+    background-image: url( /violet/images/bg.png);
     background-size: cover;
     width: 400px;
     height: 496px;
@@ -158,7 +158,7 @@ position: relative;
     height: 16px;
     position: relative;
     background-color: #23ae92;
-    background-image: url(/violet/images/check.png);
+    background-image: url( /violet/images/check.png);
     display: inline-block;
     z-index: 2;
     left: -7px;
