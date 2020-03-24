@@ -115,6 +115,10 @@ input:focus{
     border: solid 2px rgba(255, 255, 255);
 }
 
+input:invalid + .error{
+    display: block;
+    }
+
 .error{
     display: none;
     color: red;
@@ -122,13 +126,8 @@ input:focus{
     font-size: 12px;
 }
 
-input:focus + .error{
+input:not(:focus)+.error{
     display: none;
-
-}
-
-input:invalid + .error{
-display: block;
 }
 
 .input-form_checkbox{
