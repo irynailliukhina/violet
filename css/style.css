@@ -106,15 +106,19 @@ input{
     margin: 10px 0 0px 0;
 }
 
+.input-form__username,
+.input-form__password{
+    margin: 20px 0 20px 0;
+}
+
 input:focus{
     border: solid 2px rgba(255, 255, 255);
- 
 }
 
 .error{
     display: none;
     color: red;
-    position: relative;
+    position: absolute;
     font-size: 12px;
 }
 
@@ -196,9 +200,9 @@ position: relative;
     background-color: #1c806c;
     border: none;
 }
-.submit__button:default{
-    background-color: #1c806c;
-    border: none;
+
+.submit{
+    margin: 20px 0;
 }
 
 .options{
