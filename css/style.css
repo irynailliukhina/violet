@@ -59,7 +59,7 @@ h1, h2 {
 }
 .login-name{
     display: flex;
-    padding-bottom: 50px;
+    padding-bottom: 35px;
 }
 
 .login-name__sign, 
