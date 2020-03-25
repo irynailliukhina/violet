@@ -57,31 +57,31 @@ h1, h2 {
     padding: 50px 70px;
 
 }
-.login-name{
+.tubs{
     display: flex;
     padding-bottom: 35px;
 }
 
-.login-name__sign, 
-.login-name__join{
+.tubs__sign, 
+.tubs__join{
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     position: relative;
 
 }
 
-.login-name__sign:hover, 
-.login-name__join:hover{
+.tubs__sign:hover, 
+.tubs__join:hover{
     cursor: pointer;
 }
 
-.login-name__sign{
+.tubs__sign{
     border-bottom: 2px solid #e66a64;
     margin: 0 20px 0 0;
     padding: 0 10px 0 0;
 }
 
-.login-name__join{
+.tubs__join{
     opacity: 0.5;
 }
 
@@ -104,6 +104,13 @@ input{
     box-sizing: border-box;
     background: transparent;
     margin: 10px 0 0px 0;
+    color: white;
+}
+
+.input-form__username input,
+.input-form__password input{
+    padding: 0 0 0 10px;
+
 }
 
 .input-form__username,
